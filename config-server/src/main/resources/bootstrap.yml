@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/MiBoutaj/MiBoutaj-spring-cloud-config-server-repository
+          default-label: main
+          username: Amine Aboutaj
+          password: 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
+          clone-on-start: true
+    fail-fast: true
+  security:
+    user:
+      name: spring_cloud_user
+      password: springCloud_Pwd!
