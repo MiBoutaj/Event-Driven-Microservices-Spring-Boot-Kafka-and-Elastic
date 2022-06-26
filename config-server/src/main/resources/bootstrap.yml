@@ -8,10 +8,10 @@ spring:
           uri: https://github.com/MiBoutaj/MiBoutaj-spring-cloud-config-server-repository
           default-label: main
           username: Amine Aboutaj
-          password: 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
+          password: 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
           clone-on-start: true
     fail-fast: true
   security:
     user:
       name: spring_cloud_user
-      password: springCloud_Pwd!
+      password: '{cipher}1caa84080218cb4e7d00c613a23e1ab4d60d7e231a3bc58f0e55430ac2893a7d261c2880cdd9a0ee0d6172e6e46ec537'
