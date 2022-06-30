@@ -3,3 +3,7 @@ docker-compose -f  common.yml -f kafka_cluster.yml down
 docker-compose up
 docker logs -f 8ad0d653faf8785af5524243f721c2702546efad7f0d38bb4044bf01837b9860
 docker logs -f f856ccd24c91
+
+//elastic
+1) wsl -d docker-desktop
+2) sysctl -w vm.max_map_count=262144

@@ -1,0 +1,124 @@
+2022-06-29 21:03:25 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.1.5.Final
+2022-06-29 21:03:27 [main] INFO  c.m.demo.config.server.ConfigServer - No active profile set, falling back to default profiles: default
+2022-06-29 21:03:29 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=9f2b0f5b-a5d0-3e50-ac08-c75b27d86a88
+2022-06-29 21:03:30 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2022-06-29 21:03:30 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2022-06-29 21:03:30 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-06-29 21:03:30 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2022-06-29 21:03:30 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-06-29 21:03:30 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3055 ms
+2022-06-29 21:03:31 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2022-06-29 21:03:37 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/encrypt/**'], []
+2022-06-29 21:03:37 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/decrypt/**'], []
+2022-06-29 21:03:37 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@192f5f39, org.springframework.security.web.context.SecurityContextPersistenceFilter@e706aa, org.springframework.security.web.header.HeaderWriterFilter@5bde6148, org.springframework.security.web.authentication.logout.LogoutFilter@38e46765, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@16fc5622, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5310e451, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4cd5fc46, org.springframework.security.web.session.SessionManagementFilter@1da5c19d, org.springframework.security.web.access.ExceptionTranslationFilter@67e11bda]
+2022-06-29 21:03:37 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2022-06-29 21:03:37 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2022-06-29 21:03:37 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2022-06-29 21:03:37 [main] INFO  c.m.demo.config.server.ConfigServer - Started ConfigServer in 13.039 seconds (JVM running for 16.189)
+2022-06-29 21:03:38 [RMI TCP Connection(2)-172.24.16.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-29 21:03:38 [RMI TCP Connection(2)-172.24.16.1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-06-29 21:03:38 [RMI TCP Connection(2)-172.24.16.1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 12 ms
+2022-06-29 21:03:39 [RMI TCP Connection(1)-172.24.16.1] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: file:/C:/Users/Amine/AppData/Local/Temp/config-repo-12682663976584158685/application.yml
+2022-06-29 21:05:47 [http-nio-8888-exec-2] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: file:/C:/Users/Amine/AppData/Local/Temp/config-repo-12682663976584158685/kafka-to-elastic-service.yml
+2022-06-29 21:05:47 [http-nio-8888-exec-2] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: file:/C:/Users/Amine/AppData/Local/Temp/config-repo-12682663976584158685/application.yml
+2022-06-29 21:11:05 [http-nio-8888-exec-3] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: file:/C:/Users/Amine/AppData/Local/Temp/config-repo-12682663976584158685/application.yml
+2022-06-29 21:11:05 [http-nio-8888-exec-3] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: file:/C:/Users/Amine/AppData/Local/Temp/config-repo-12682663976584158685/twitter-to-kafka-service.yml
+2022-06-29 21:23:15 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.1.5.Final
+2022-06-29 21:23:16 [main] INFO  c.m.demo.config.server.ConfigServer - No active profile set, falling back to default profiles: default
+2022-06-29 21:23:18 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=9f2b0f5b-a5d0-3e50-ac08-c75b27d86a88
+2022-06-29 21:23:18 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2022-06-29 21:23:18 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2022-06-29 21:23:18 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-06-29 21:23:18 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2022-06-29 21:23:18 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-06-29 21:23:18 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2528 ms
+2022-06-29 21:23:19 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2022-06-29 21:23:25 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/encrypt/**'], []
+2022-06-29 21:23:25 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/decrypt/**'], []
+2022-06-29 21:23:25 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5bde6148, org.springframework.security.web.context.SecurityContextPersistenceFilter@241d1052, org.springframework.security.web.header.HeaderWriterFilter@4a453f8d, org.springframework.security.web.authentication.logout.LogoutFilter@341ccfd1, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5bb99d1d, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4fdac2a7, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3cead673, org.springframework.security.web.session.SessionManagementFilter@4fedf908, org.springframework.security.web.access.ExceptionTranslationFilter@3460e4ed]
+2022-06-29 21:23:25 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2022-06-29 21:23:26 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2022-06-29 21:23:26 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2022-06-29 21:23:26 [main] INFO  c.m.demo.config.server.ConfigServer - Started ConfigServer in 12.365 seconds (JVM running for 14.818)
+2022-06-29 21:23:26 [RMI TCP Connection(3)-172.24.16.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-29 21:23:26 [RMI TCP Connection(3)-172.24.16.1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-06-29 21:23:26 [RMI TCP Connection(3)-172.24.16.1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 12 ms
+2022-06-29 21:23:30 [RMI TCP Connection(2)-172.24.16.1] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: file:/C:/Users/Amine/AppData/Local/Temp/config-repo-16220178470325836743/application.yml
+2022-06-29 21:23:51 [http-nio-8888-exec-1] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: file:/C:/Users/Amine/AppData/Local/Temp/config-repo-16220178470325836743/application.yml
+2022-06-29 21:23:51 [http-nio-8888-exec-1] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: file:/C:/Users/Amine/AppData/Local/Temp/config-repo-16220178470325836743/twitter-to-kafka-service.yml
+2022-06-29 21:25:08 [http-nio-8888-exec-3] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: file:/C:/Users/Amine/AppData/Local/Temp/config-repo-16220178470325836743/kafka-to-elastic-service.yml
+2022-06-29 21:25:08 [http-nio-8888-exec-3] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: file:/C:/Users/Amine/AppData/Local/Temp/config-repo-16220178470325836743/application.yml
+2022-06-29 21:27:22 [http-nio-8888-exec-5] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: file:/C:/Users/Amine/AppData/Local/Temp/config-repo-16220178470325836743/kafka-to-elastic-service.yml
+2022-06-29 21:27:22 [http-nio-8888-exec-5] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: file:/C:/Users/Amine/AppData/Local/Temp/config-repo-16220178470325836743/application.yml
+2022-06-29 21:50:51 [http-nio-8888-exec-7] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: file:/C:/Users/Amine/AppData/Local/Temp/config-repo-16220178470325836743/kafka-to-elastic-service.yml
+2022-06-29 21:50:51 [http-nio-8888-exec-7] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: file:/C:/Users/Amine/AppData/Local/Temp/config-repo-16220178470325836743/application.yml
+2022-06-29 21:52:05 [http-nio-8888-exec-9] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: file:/C:/Users/Amine/AppData/Local/Temp/config-repo-16220178470325836743/kafka-to-elastic-service.yml
+2022-06-29 21:52:05 [http-nio-8888-exec-9] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: file:/C:/Users/Amine/AppData/Local/Temp/config-repo-16220178470325836743/application.yml
+2022-06-29 21:57:17 [Thread-3] WARN  o.s.c.c.s.e.MultipleJGitEnvironmentRepository - Failed to delete temporary directory on exit: java.nio.file.AccessDeniedException: C:\Users\Amine\AppData\Local\Temp\config-repo-16220178470325836743\.git\objects\pack\pack-d84d6f1907f2271b9968305717b1e5c6c1581733.idx
+2022-06-29 21:57:17 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2022-06-29 21:57:39 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.1.5.Final
+2022-06-29 21:57:40 [main] INFO  c.m.demo.config.server.ConfigServer - No active profile set, falling back to default profiles: default
+2022-06-29 21:57:42 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=9f2b0f5b-a5d0-3e50-ac08-c75b27d86a88
+2022-06-29 21:57:42 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2022-06-29 21:57:42 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2022-06-29 21:57:42 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-06-29 21:57:42 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2022-06-29 21:57:42 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-06-29 21:57:42 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2009 ms
+2022-06-29 21:57:43 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2022-06-29 21:57:48 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/encrypt/**'], []
+2022-06-29 21:57:48 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/decrypt/**'], []
+2022-06-29 21:57:48 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4c41a177, org.springframework.security.web.context.SecurityContextPersistenceFilter@54941dfd, org.springframework.security.web.header.HeaderWriterFilter@5950054d, org.springframework.security.web.authentication.logout.LogoutFilter@1827fc4e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4045fd1f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4152bd0f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2faf6e4a, org.springframework.security.web.session.SessionManagementFilter@cf984d9, org.springframework.security.web.access.ExceptionTranslationFilter@70c31b17]
+2022-06-29 21:57:49 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2022-06-29 21:57:49 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2022-06-29 21:57:49 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2022-06-29 21:57:49 [main] INFO  c.m.demo.config.server.ConfigServer - Started ConfigServer in 10.868 seconds (JVM running for 12.401)
+2022-06-29 21:57:50 [RMI TCP Connection(2)-172.24.16.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-29 21:57:50 [RMI TCP Connection(2)-172.24.16.1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-06-29 21:57:50 [RMI TCP Connection(2)-172.24.16.1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 10 ms
+2022-06-29 21:57:51 [RMI TCP Connection(3)-172.24.16.1] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: file:/C:/Users/Amine/AppData/Local/Temp/config-repo-7419418222162972128/application.yml
+2022-06-29 21:58:36 [http-nio-8888-exec-1] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: file:/C:/Users/Amine/AppData/Local/Temp/config-repo-7419418222162972128/application.yml
+2022-06-29 21:58:36 [http-nio-8888-exec-1] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: file:/C:/Users/Amine/AppData/Local/Temp/config-repo-7419418222162972128/twitter-to-kafka-service.yml
+2022-06-29 21:59:10 [http-nio-8888-exec-2] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: file:/C:/Users/Amine/AppData/Local/Temp/config-repo-7419418222162972128/kafka-to-elastic-service.yml
+2022-06-29 21:59:10 [http-nio-8888-exec-2] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: file:/C:/Users/Amine/AppData/Local/Temp/config-repo-7419418222162972128/application.yml
+2022-06-29 22:00:22 [http-nio-8888-exec-5] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: file:/C:/Users/Amine/AppData/Local/Temp/config-repo-7419418222162972128/kafka-to-elastic-service.yml
+2022-06-29 22:00:22 [http-nio-8888-exec-5] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: file:/C:/Users/Amine/AppData/Local/Temp/config-repo-7419418222162972128/application.yml
+2022-06-29 22:07:07 [http-nio-8888-exec-7] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: file:/C:/Users/Amine/AppData/Local/Temp/config-repo-7419418222162972128/kafka-to-elastic-service.yml
+2022-06-29 22:07:07 [http-nio-8888-exec-7] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: file:/C:/Users/Amine/AppData/Local/Temp/config-repo-7419418222162972128/application.yml
+2022-06-29 22:09:56 [http-nio-8888-exec-9] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: file:/C:/Users/Amine/AppData/Local/Temp/config-repo-7419418222162972128/kafka-to-elastic-service.yml
+2022-06-29 22:09:56 [http-nio-8888-exec-9] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: file:/C:/Users/Amine/AppData/Local/Temp/config-repo-7419418222162972128/application.yml
+2022-06-29 22:19:36 [http-nio-8888-exec-1] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: file:/C:/Users/Amine/AppData/Local/Temp/config-repo-7419418222162972128/kafka-to-elastic-service.yml
+2022-06-29 22:19:36 [http-nio-8888-exec-1] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: file:/C:/Users/Amine/AppData/Local/Temp/config-repo-7419418222162972128/application.yml
+2022-06-29 22:23:52 [http-nio-8888-exec-3] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: file:/C:/Users/Amine/AppData/Local/Temp/config-repo-7419418222162972128/kafka-to-elastic-service.yml
+2022-06-29 22:23:52 [http-nio-8888-exec-3] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: file:/C:/Users/Amine/AppData/Local/Temp/config-repo-7419418222162972128/application.yml
+2022-06-29 23:17:18 [Thread-3] WARN  o.s.c.c.s.e.MultipleJGitEnvironmentRepository - Failed to delete temporary directory on exit: java.nio.file.AccessDeniedException: C:\Users\Amine\AppData\Local\Temp\config-repo-7419418222162972128\.git\objects\pack\pack-ccb8d2b950e67d65a56881c7691ed50f4836e9c0.idx
+2022-06-29 23:17:18 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2022-06-29 23:18:43 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.1.5.Final
+2022-06-29 23:18:44 [main] INFO  c.m.demo.config.server.ConfigServer - No active profile set, falling back to default profiles: default
+2022-06-29 23:18:46 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=9f2b0f5b-a5d0-3e50-ac08-c75b27d86a88
+2022-06-29 23:18:46 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2022-06-29 23:18:46 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2022-06-29 23:18:46 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-06-29 23:18:46 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2022-06-29 23:18:47 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-06-29 23:18:47 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2281 ms
+2022-06-29 23:18:47 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2022-06-29 23:18:51 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/encrypt/**'], []
+2022-06-29 23:18:51 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/decrypt/**'], []
+2022-06-29 23:18:51 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3ec7ad61, org.springframework.security.web.context.SecurityContextPersistenceFilter@1b69fc07, org.springframework.security.web.header.HeaderWriterFilter@6fbc7853, org.springframework.security.web.authentication.logout.LogoutFilter@31f1b268, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@24de63b, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3f908bc0, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2833c093, org.springframework.security.web.session.SessionManagementFilter@57a982f9, org.springframework.security.web.access.ExceptionTranslationFilter@72e75786]
+2022-06-29 23:18:52 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2022-06-29 23:18:52 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2022-06-29 23:18:52 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2022-06-29 23:18:52 [main] INFO  c.m.demo.config.server.ConfigServer - Started ConfigServer in 10.541 seconds (JVM running for 12.692)
+2022-06-29 23:18:53 [RMI TCP Connection(2)-172.24.16.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-29 23:18:53 [RMI TCP Connection(2)-172.24.16.1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-06-29 23:18:53 [RMI TCP Connection(2)-172.24.16.1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 11 ms
+2022-06-29 23:18:54 [RMI TCP Connection(3)-172.24.16.1] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: file:/C:/Users/Amine/AppData/Local/Temp/config-repo-3844286342556826607/application.yml
+2022-06-29 23:19:19 [http-nio-8888-exec-1] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: file:/C:/Users/Amine/AppData/Local/Temp/config-repo-3844286342556826607/application.yml
+2022-06-29 23:19:19 [http-nio-8888-exec-1] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: file:/C:/Users/Amine/AppData/Local/Temp/config-repo-3844286342556826607/twitter-to-kafka-service.yml
+2022-06-29 23:20:09 [http-nio-8888-exec-2] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: file:/C:/Users/Amine/AppData/Local/Temp/config-repo-3844286342556826607/kafka-to-elastic-service.yml
+2022-06-29 23:20:09 [http-nio-8888-exec-2] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: file:/C:/Users/Amine/AppData/Local/Temp/config-repo-3844286342556826607/application.yml
+2022-06-29 23:30:16 [http-nio-8888-exec-5] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: file:/C:/Users/Amine/AppData/Local/Temp/config-repo-3844286342556826607/kafka-to-elastic-service.yml
+2022-06-29 23:30:16 [http-nio-8888-exec-5] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: file:/C:/Users/Amine/AppData/Local/Temp/config-repo-3844286342556826607/application.yml
+2022-06-29 23:56:02 [Thread-3] WARN  o.s.c.c.s.e.MultipleJGitEnvironmentRepository - Failed to delete temporary directory on exit: java.nio.file.AccessDeniedException: C:\Users\Amine\AppData\Local\Temp\config-repo-3844286342556826607\.git\objects\pack\pack-ccb8d2b950e67d65a56881c7691ed50f4836e9c0.idx
+2022-06-29 23:56:02 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
